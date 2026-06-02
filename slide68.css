@@ -1,0 +1,36 @@
+button {
+    background-color: #00FF00;
+    color: #FF0000;
+    font-size: 18pt;
+    margin: 10px;
+    
+    /* Change 3: Added border-radius and a dark solid border to all buttons */
+    border-radius: 12px;
+    border: 2px solid #333333;
+    padding: 5px 15px;
+}
+
+#danger-btn {
+    background-color: #0000FF;
+    
+    /* Change 4: Changed the text color of the danger button to white for better readability */
+    color: #FFFFFF;
+}
+
+.green-bg {
+    background-color: #000000;
+}
+
+/* Change 5: Added a hover effect that changes opacity, scales up, and changes the cursor */
+button:hover {
+    opacity: 0.8;
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: transform 0.2s;
+}
+
+h1 {
+    font-family: Arial, sans-serif;
+    color: #333333;
+    padding-left: 10px;
+}
